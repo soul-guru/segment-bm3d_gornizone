@@ -9,7 +9,6 @@ It can even be deployed on another machine and have IP forwarded to the network 
 other calculations not of a static nature, but using neural network models.</br>
 SOUL Essent is a multilingual environment that uses adapters to run the daemon in Python and work with it with high performance.</br>
 
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 <br/>
