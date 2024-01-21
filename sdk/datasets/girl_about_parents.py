@@ -1,0 +1,35 @@
+DATASET_GIRL_ABOUT_PARENTS = [
+    {'role': 'Girl', 'message': "Here we go again. Mom and Dad don't understand me again."},
+    {'role': 'Listener', 'message': "It's really not easy. Why do you think they don't understand you?"},
+    {'role': 'Girl', 'message': "They're always like: 'Do this, do that', but they never ask what I want."},
+    {'role': 'Listener', 'message': "It must be hard for you to deal with this. Have you told them about your feelings?"},
+    {'role': 'Girl', 'message': "I have my own dreams, but they seem to think they know better."},
+    {'role': 'Listener', 'message': "Your dreams are important. Maybe you should try explaining it to them?"},
+    {'role': 'Girl', 'message': "And school is no easier, everyone just thinks about themselves."},
+    {'role': 'Listener', 'message': "You're not alone. Many feel the same way. What worries you the most?"},
+    {'role': 'Girl', 'message': "I feel like I'm the only one who feels this bad."},
+    {'role': 'Listener', 'message': "Sometimes it seems that way, but you're actually not alone. Can I help in any way?"},
+    {'role': 'Girl', 'message': "Also, they don't understand that I'm already grown up. I'm already 18!"},
+    {'role': 'Listener', 'message': "I understand, it's a difficult age. What do you think could help them understand you?"},
+    {'role': 'Girl', 'message': "Sometimes I think I need to get away from everyone."},
+    {'role': 'Listener', 'message': "That's a strong feeling. Do you feel it would be better somewhere else?"},
+    {'role': 'Girl', 'message': "No one understands what it's like to be me."},
+    {'role': 'Listener', 'message': "I understand, it's hard. But know that your feelings are important."},
+    {'role': 'Girl', 'message': "Even my friends seem so distant and unserious."},
+    {'role': 'Listener', 'message': "Friends can be like that sometimes. Maybe they just don't know how to help you."},
+    {'role': 'Girl', 'message': "I just want to scream so that I can be heard."},
+    {'role': 'Listener', 'message': "Your voice is important. What would you like to say if you were heard?"},
+    {'role': 'Girl', 'message': "Sometimes I feel completely alone."},
+    {'role': 'Listener', 'message': "Loneliness can be hard. Is there something that brings you joy or comfort?"},
+    {'role': 'Girl', 'message': "My parents are always busy, they never have time for me."},
+    {'role': 'Listener', 'message': "It's hard when you feel like you're not being heard. What would you like to tell them?"},
+    {'role': 'Girl', 'message': "Sometimes I feel like I have no one to talk to."},
+    {'role': 'Listener', 'message': "Sometimes those moments happen. But you can talk to me."},
+    {'role': 'Girl', 'message': "Everything around seems so meaningless."},
+    {'role': 'Listener', 'message': "When everything seems meaningless, it's hard. Is there something that brings you joy?"},
+    {'role': 'Girl', 'message': "Why doesn't anyone understand that I just need to talk it out?"},
+    {'role': 'Listener', 'message': "Understanding is important. Tell me what you're feeling, I'm here to listen."}
+]
+
+def filter_girl_messages(dialogue):
+    return [entry['message'] for entry in dialogue if entry['role'] == 'Girl']
